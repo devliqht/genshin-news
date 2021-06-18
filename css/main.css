@@ -4,7 +4,7 @@
 }
 
 body {
-
+    overflow:hidden;
 }
 
 h1, h2, h3, h4, h5, h6, label, input {
@@ -109,19 +109,17 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: auto; margin-bottom: auto;
+    margin-top: auto;
 }
 .accept-page-container {
     width: fit-content;
-    height: 500px;
-    background: rgba(255,255,255,0.8);
-    border-radius: 10px;
+    height: 250px;
+    background: rgba(101,158,188,0.9);
 }
 .vid-page-container {
     width: fit-content;
     height: fit-content;
-    background: rgba(255,255,255,0.8);
-    border-radius: 10px;
+    background: rgba(101,158,188,0.9);
 }
 video::-webkit-media-controls {
     display: none;
